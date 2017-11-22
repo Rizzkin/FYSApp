@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="471.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="com.mycompany.prototypefys.controllers.HelpSchermController">
+   <children>
+      <Label layoutX="37.0" layoutY="35.0" text="F.A.Q.">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="78.0" text="Hoe moet je inloggen?">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="161.0" text="Wat moet je doen als je je wachtwoord vergeet?">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="183.0" text="Lorem" />
+      <Label layoutX="40.0" layoutY="253.0" text="Hoe moet je bagage zoeken?">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="275.0" text="Lorem" />
+      <Button layoutX="40.0" layoutY="334.0" mnemonicParsing="false" onAction="#OnTerugNaarLogin" text="Terug" />
+      <Label layoutX="39.0" layoutY="103.0" text="Lorem" />
+   </children>
+</AnchorPane>
